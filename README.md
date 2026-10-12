@@ -25,23 +25,21 @@ Both assignments include a MATLAB implementation and a written report.
 ```
 Spacecraft-Guidance-and-Navigation/
 ├── Guidance/
-│   ├── PeriodicOrbit.m          # Lagrange points & periodic orbits in CR3BP
-│   ├── ImpulsiveGuidance.m      # Multi-impulse trajectory optimization (multiple shooting + Pareto)
-│   ├── ContinuousGuidance.m     # Low-thrust trajectory optimization (debris-density-aware)
-│   ├── kernels/                 # SPICE kernels (ex02.tm)
-│   ├── mice/                    # MATLAB SPICE toolkit (MICE)
-│   ├── Report.pdf               # Written report for Assignment 1
-│   └── grafico_pareto_effic.png # Pareto front: ΔV vs. efficiency
+│   ├── Puzzolante10656823_Assign1_Ex1.m          # Lagrange points & periodic orbits in CR3BP
+│   ├── Puzzolante10656823_Assign1_Ex2.m          # Multi-impulse trajectory optimization (multiple shooting + Pareto)
+│   ├── Puzzolante10656823_Assign1_Ex3.m          # Low-thrust trajectory optimization (debris-density-aware)
+│   ├── kernels/                                  # SPICE kernels (ex02.tm)
+│   └── Puzzolante225449_Assign1.pdf              # Written report for Assignment 1
+|
 └── Navigation/
-    ├── UncertaintyPropagation.m # LinCov & Unscented Transform (UT) in CR3BP
-    ├── BatchFilters.m           # Weighted least-squares batch orbit determination
-    ├── KalmanFilters.m          # EKF & UKF sequential orbit determination
-    ├── kernels/                 # SPICE kernels (assignment02.tm)
-    ├── mice/                    # MATLAB SPICE toolkit (MICE)
-    ├── sgp4/                    # SGP4 propagator
-    ├── tle/                     # Two-Line Element sets
-    ├── assignment02.tm          # SPICE meta-kernel
-    └── Report.pdf               # Written report for Assignment 2
+    ├── Puzzolante10656823_Assign2_Ex1.m          # LinCov & Unscented Transform (UT) in CR3BP
+    ├── Puzzolante10656823_Assign2_Ex2.m          # Weighted least-squares batch orbit determination
+    ├── Puzzolante10656823_Assign2_Ex3.m          # EKF & UKF sequential orbit determination
+    ├── kernels/                                  # SPICE kernels (assignment02.tm)
+    ├── sgp4/                                     # SGP4 propagator
+    ├── tle/                                      # Two-Line Element sets
+    ├── assignment02.tm                           # SPICE meta-kernel
+    └── Puzzolante225449_Assign2.pdf              # Written report for Assignment 2
 ```
 
 ---
